@@ -139,6 +139,7 @@ body {
 	background: #F2F3F6;
 	border-radius: 10px;
 	padding: 35px;
+	transition: .3s;
 }
 
 .card-icon {
