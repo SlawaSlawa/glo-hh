@@ -1,8 +1,16 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
 body {
 	font-family: 'Fira Sans', sans-serif;
 	font-size: 16px;
 	color: #111238;
 	margin: 0;
+}
+
+.header {
+	background: #F2F3F6;
 }
 
 .menu {
@@ -29,8 +37,10 @@ body {
 
 .button {
 	display: inline-block;
+	border: none;
 	cursor: pointer;
 	text-decoration: none;
+	font-size: 16px;
 	line-height: 19px;
 }
 
@@ -45,4 +55,107 @@ body {
 	color: #FFFFFF;
 	padding: 15px 30px;
 	border-radius: 5px;
+}
+
+.button-icon {
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.button-text {
+	vertical-align: middle;
+}
+
+.hero-title {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 53px;
+	color: #111238;
+	margin-top: 43px;
+	margin-bottom: 15px;
+}
+
+.hero-text {
+	font-size: 18px;
+	line-height: 140%;
+	color: #111238 margin-bottom: 30px;
+}
+
+.input-group {
+	background: #FFFFFF;
+	border: 1px solid rgba(209, 209, 209, 0.1);
+	box-shadow: 0px 4px 25px rgba(15, 17, 56, 0.1);
+	border-radius: 5px;
+	margin-bottom: 25px;
+	padding: 10px;
+}
+
+.input {
+	background-color: #fff;
+	border: none;
+	flex-grow: 1;
+	font-size: 16px;
+	line-height: 19px;
+	padding-left: 15px;
+}
+
+.input:focus {
+	outline: 1px dotted #ccc;
+}
+
+.tags-group {
+	padding-left: 15px;
+	font-size: 14px;
+	line-height: 17px;
+	color: #B2B2B2;
+}
+
+.tags-label {
+	color: #B2B2B2;
+}
+
+.tag {
+	border: 1px solid #B2B2B2;
+	border-radius: 5px;
+	color: #B2B2B2;
+	text-decoration: none;
+	padding: 5px 10px;
+	margin-left: 10px;
+}
+
+.section {
+	padding-top: 70px;
+	padding-bottom: 80px;
+}
+
+.section-title {
+	margin-bottom: 40px;
+	margin-top: 0;
+}
+
+.card {
+	text-decoration: none;
+	color: #111238;
+	background: #F2F3F6;
+	border-radius: 10px;
+	padding: 35px;
+}
+
+.card-icon {
+	fill: #111238;
+	margin-bottom: 15px;
+	transition: .3s;
+}
+
+.card:hover {
+	background-color: #1A75E8;
+	color: #fff;
+}
+
+.card:hover .card-icon {
+	fill: #fff;
+}
+
+.card-text {
+	transition: .3s;
 }
