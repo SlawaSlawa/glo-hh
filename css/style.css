@@ -160,3 +160,144 @@ body {
 .card-text {
 	transition: .3s;
 }
+
+.offer {
+	border: 1px solid #C5C9D4;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-bottom: 20px;
+	padding: 30px;
+}
+
+.offer-image {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 1px solid #F2F3F6;
+	object-fit: contain;
+}
+
+.offer-title {
+	margin-left: 20px;
+}
+
+.offer-heading {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	color: #111238;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.offer-place {
+	font-size: 14px;
+	line-height: 17px;
+	color: #111238;
+	opacity: 0.8;
+}
+
+.offer-salary {
+	background-color: #1A75E8;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	color: #FFFFFF;
+	margin-right: 62px;
+	margin-left: 46px;
+	padding: 10px 25px;
+}
+
+.more {
+	font-size: 14px;
+	line-height: 17px;
+	color: #1A75E8;
+	text-decoration: none;
+	margin-right: 25px;
+	margin-left: auto;
+}
+
+.subscribe {
+	background-color: #F2F3F6;
+}
+
+.subscribe-form {
+	max-width: 460px;
+	margin: auto;
+	text-align: center;
+}
+
+.subscribe-title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 43px;
+	color: #111238;
+	margin-bottom: 20px;
+}
+
+.subscribe-subtitle {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 140%;
+	color: #111238;
+	margin-bottom: 40px;
+}
+
+.envelope-icon {
+	fill: #fff;
+	width: 15px;
+	height: 14px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.footer {
+	padding-top: 70px;
+	padding-bottom: 100px;
+}
+
+.footer-description {
+	font-size: 12px;
+	line-height: 140%;
+	color: #B2B2B2;
+	width: 166px;
+	margin-bottom: 10px;
+}
+
+.footer-copyright {
+	font-size: 12px;
+	line-height: 140%;
+	color: #B2B2B2;
+}
+
+.footer-title {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	color: #111238;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+.footer-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.footer-list-item {
+	margin-bottom: 10px;
+}
+
+.footer-list-link {
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 19px;
+	color: #111238;
+	transition: .3s;
+}
+
+.footer-list-link:hover {
+	color: #1a75e8;
+}
