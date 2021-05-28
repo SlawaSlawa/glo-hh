@@ -9,6 +9,10 @@ body {
 	margin: 0;
 }
 
+img {
+	max-width: 100%;
+}
+
 .header {
 	background: #F2F3F6;
 }
@@ -59,11 +63,11 @@ body {
 
 .button-icon {
 	vertical-align: middle;
-	margin-right: 10px;
 }
 
 .button-text {
 	vertical-align: middle;
+	margin-left: 10px;
 }
 
 .hero-title {
