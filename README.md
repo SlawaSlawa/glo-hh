@@ -8,4 +8,4 @@
 - Bootstrap v5
 
 ## Ссылка на GitHub Pages
-[https://slawaslawa.github.io/glo-hh/](glo-hh)
+[glo-hh](https://slawaslawa.github.io/glo-hh/)
